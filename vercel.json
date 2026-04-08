@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "src": "harsh_portfolio/wsgi.py",
+            "src": "cv_project/wsgi.py",
             "use": "@vercel/python"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "harsh_portfolio/wsgi.py"
+            "dest": "cv_project/wsgi.py"
         }
     ]
 }
